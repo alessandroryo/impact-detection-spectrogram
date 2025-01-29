@@ -1,0 +1,15 @@
+# Ignore data files for privacy
+data/
+
+# Ignore trained models
+models/
+models/logs/
+
+# Ignore Jupyter notebook checkpoints
+notebooks/**/.ipynb_checkpoints/
+
+# Ignore temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.log
